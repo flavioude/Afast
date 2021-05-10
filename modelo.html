@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Acesso ao Dashboard</h1>
+    </header>
+    <section>
+        <div>
+            <p>Código de Acesso:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+            <!-- Atenção ao name do input: deve ser o mesmo nome (radsex), senão vai ser possível marcar os dois-->
+        </div>
+        <div id="res">
+            O link será disponibilizado após inserir o código
+        </div>
+    </section>
+    
+    <footer>
+        <p>Em teste</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
